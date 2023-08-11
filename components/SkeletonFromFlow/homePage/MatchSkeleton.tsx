@@ -11,47 +11,49 @@ function MatchSkeleton() {
           <Rectangle classes="h-3 w-20" />
         </div>
       </div>
-      <div className="flex gap-3 items-center bg-[#1C1C1C] p-2 xl:!p-4">
-        <div className="flex gap-1 flex-col">
-          <Rectangle classes="h-3 w-12" />
-          <Rectangle classes="h-3 w-12" />
-        </div>
-        <div className="flex gap-1 flex-col px-4 border-l border-solid border-gray-200 dark:border-[#333] w-full">
-          <div className="flex justify-between items-center">
-            <div className="flex gap-2 items-center">
-              <Circle classes="w-5 h-5" />
-              <Rectangle classes="h-3 w-40" />
-            </div>
-            <Rectangle classes="h-3 w-5" />
+      <div className="flex flex-col gap-1">
+        <div className="flex gap-3 items-center bg-[#1C1C1C] p-2 xl:!p-4">
+          <div className="flex gap-1 flex-col">
+            <Rectangle classes="h-3 w-12" />
+            <Rectangle classes="h-3 w-12" />
           </div>
-          <div className="flex justify-between items-center">
-            <div className="flex gap-2 items-center">
-              <Circle classes="w-5 h-5" />
-              <Rectangle classes="h-3 w-60" />
+          <div className="flex gap-1 flex-col px-4 border-l border-solid border-gray-200 dark:border-[#333] w-full">
+            <div className="flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <Circle classes="w-5 h-5" />
+                <Rectangle classes="h-3 w-40" />
+              </div>
+              <Rectangle classes="h-3 w-5" />
             </div>
-            <Rectangle classes="h-3 w-5" />
+            <div className="flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <Circle classes="w-5 h-5" />
+                <Rectangle classes="h-3 w-60" />
+              </div>
+              <Rectangle classes="h-3 w-5" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="flex gap-3 items-center bg-[#1C1C1C] p-2 xl:!p-4">
-        <div className="flex gap-1 flex-col">
-          <Rectangle classes="h-3 w-12" />
-          <Rectangle classes="h-3 w-12" />
-        </div>
-        <div className="flex gap-1 flex-col px-4 border-l border-solid border-gray-200 dark:border-[#333] w-full">
-          <div className="flex justify-between items-center">
-            <div className="flex gap-2 items-center">
-              <Circle classes="w-5 h-5" />
-              <Rectangle classes="h-3 w-40" />
-            </div>
-            <Rectangle classes="h-3 w-5" />
+        <div className="flex gap-3 items-center bg-[#1C1C1C] p-2 xl:!p-4">
+          <div className="flex gap-1 flex-col">
+            <Rectangle classes="h-3 w-12" />
+            <Rectangle classes="h-3 w-12" />
           </div>
-          <div className="flex justify-between items-center">
-            <div className="flex gap-2 items-center">
-              <Circle classes="w-5 h-5" />
-              <Rectangle classes="h-3 w-60" />
+          <div className="flex gap-1 flex-col px-4 border-l border-solid border-gray-200 dark:border-[#333] w-full">
+            <div className="flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <Circle classes="w-5 h-5" />
+                <Rectangle classes="h-3 w-40" />
+              </div>
+              <Rectangle classes="h-3 w-5" />
             </div>
-            <Rectangle classes="h-3 w-5" />
+            <div className="flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <Circle classes="w-5 h-5" />
+                <Rectangle classes="h-3 w-60" />
+              </div>
+              <Rectangle classes="h-3 w-5" />
+            </div>
           </div>
         </div>
       </div>
