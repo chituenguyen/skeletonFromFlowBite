@@ -3,7 +3,7 @@ import Rectangle from "../Rectangle";
 
 function FeatureMatchCompe() {
   return (
-    <div className="dark:bg-[#1C1C1C] bg-[#F2F6F9] px-2 py-1 rounded-lg xl:!px-8 xl:!py-4">
+    <div className="dark:bg-[#1C1C1C] bg-white px-2 py-1 rounded-lg xl:!px-8 xl:!py-4">
       <div className="flex justify-between">
         <div className="flex flex-col items-center gap-4">
           <Circle classes="w-7 h-7 lg:w-10 lg:h-10 xl:!w-14 xl:!h-14" />

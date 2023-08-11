@@ -21,49 +21,49 @@ const Home: NextPage = () => {
   const tabContents = [
     <div className="flex flex-col gap-4" key={1}>
       <PredictFeatureMatch />
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Rectangle classes="w-full h-[5rem]" />
       </div>
-      <div className="dark:bg-[#1C1C1C]">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C]">
         <ConfrontationH />
       </div>
-      <div className="dark:bg-[#1C1C1C]">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C]">
         <Referee />
       </div>
-      <div className="dark:bg-[#1C1C1C]">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C]">
         <Stadium />
       </div>
     </div>,
     <div key={2} className="flex flex-col gap-4">
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Rectangle classes="w-full h-[7rem]" />
       </div>
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Formation />
       </div>
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Formation />
       </div>
     </div>,
     <div key={3} className="flex flex-col gap-4">
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Rectangle classes="w-full h-[10rem]" />
       </div>
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Statistic />
       </div>
     </div>,
     <div key={4} className="flex flex-col gap-4">
       <PredictFeatureMatch />
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Streak />
       </div>
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
         <Streak />
       </div>
     </div>,
     <div key={5}>
-      <div className="dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
       {numbersArray2.map((number) => (
         <Standing key={number} />
       ))}
@@ -72,14 +72,14 @@ const Home: NextPage = () => {
   ];
 
   return (
-    <div className="font-Uniscore">
+    <div className="font-Uniscore bg-light dark:bg-[#121212]">
       <div className="w-fit h-fit absolute top-0 right-0">
         <Link href={"/competition"}>Next page</Link>
         <ThemeSwitch />
       </div>
-      <div className="layout h-screen flex gap-4 ">
+      <div className="layout flex gap-4 ">
         <div className="w-full lg:!w-[45%] h-full py-20 px-4">
-          <div className="w-full h-fit bg-[#F2F6F9]  dark:bg-[#222] rounded-xl overflow-hidden">
+          <div className="w-full h-fit bg-white  dark:bg-[#222] rounded-xl overflow-hidden">
             <MatchSkeleton />
             <MatchSkeleton />
             <MatchSkeleton />
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="hidden lg:block lg:w-[45%] xl:!w-[35%] h-full  py-20 px-2">
-          <div className="w-full h-fit bg-[#F2F6F9]  dark:bg-[#222] rounded-xl px-2 py-8 flex flex-col gap-6">
+          <div className="w-full h-fit bg-white  dark:bg-[#222] rounded-xl px-2 py-8 flex flex-col gap-6">
             <FeatureMatch />
             {/* <PredictFeatureMatch/> */}
             <Tabs tabs={tabs} tabContents={tabContents} />
