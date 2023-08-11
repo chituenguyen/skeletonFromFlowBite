@@ -7,7 +7,7 @@ function Standing() {
       <div className="flex gap-5 items-center">
         <Circle classes="w-7 h-7" />
         <div className="w-full">
-          <Rectangle classes="h-5 w-full" />
+          <Rectangle classes="h-3 w-[80%]" />
         </div>
       </div>
     </div>

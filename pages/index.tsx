@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { ThemeSwitch } from "../components/darkmode/ThemeSwitch";
 import MatchSkeleton from "../components/SkeletonFromFlow/homePage/MatchSkeleton";
 import FeatureMatch from "../components/SkeletonFromFlow/homePage/FeatureMatch";
-import PredictFeatureMatch from "../components/SkeletonFromFlow/homePage/PredictFeatureMatch";
 import Link from "next/link";
 
 const Home: NextPage = () => {
@@ -14,7 +13,7 @@ const Home: NextPage = () => {
       </div>
       <div className="layout h-screen flex gap-4 ">
         <div className="w-full lg:!w-[45%] h-full py-20 px-4">
-          <div className="w-full h-fit bg-[#F2F6F9]  dark:bg-[#222] rounded-xl py-4 overflow-hidden">
+          <div className="w-full h-fit bg-[#F2F6F9]  dark:bg-[#222] rounded-xl overflow-hidden">
             <MatchSkeleton />
             <MatchSkeleton />
             <MatchSkeleton />
@@ -29,7 +28,7 @@ const Home: NextPage = () => {
         <div className="hidden lg:block lg:!w-[35%] h-full  py-20 px-2">
           <div className="w-full h-fit bg-[#F2F6F9]  dark:bg-[#222] rounded-xl px-2 py-8 flex flex-col gap-6">
             <FeatureMatch />
-            <PredictFeatureMatch/>
+            {/* <PredictFeatureMatch/> */}
           </div>
         </div>
       </div>

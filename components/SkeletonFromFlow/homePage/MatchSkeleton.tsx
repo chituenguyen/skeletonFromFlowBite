@@ -7,18 +7,42 @@ function MatchSkeleton() {
       <div className="flex  gap-3 items-center">
         <Circle classes="w-12 h-12" />
         <div className="flex flex-col gap-2">
+          <Rectangle classes="h-3 w-full xl:!w-[22rem]" />
           <Rectangle classes="h-3 w-20" />
-          <Rectangle classes="h-3 w-full xl:w-[22rem]" />
         </div>
       </div>
-      <div className="flex gap-3">
+      <div className="flex gap-3 items-center">
         <div className="flex gap-1 flex-col">
           <Rectangle classes="h-3 w-12" />
           <Rectangle classes="h-3 w-12" />
         </div>
         <div className="flex gap-1 flex-col px-4 border-l border-solid border-gray-200 dark:border-gray-700">
-          <Rectangle classes="h-3 w-52" />
-          <Rectangle classes="h-3 w-60" />
+          <div className="flex gap-2 items-center">
+            <Circle classes="w-5 h-5" />
+            <Rectangle classes="h-3 w-40" />
+          </div>
+          <div className="flex gap-2 items-center">
+            <Circle classes="w-5 h-5" />
+
+            <Rectangle classes="h-3 w-60" />
+          </div>
+        </div>
+      </div>
+      <div className="flex gap-3 items-center">
+        <div className="flex gap-1 flex-col">
+          <Rectangle classes="h-3 w-12" />
+          <Rectangle classes="h-3 w-12" />
+        </div>
+        <div className="flex gap-1 flex-col px-4 border-l border-solid border-gray-200 dark:border-gray-700">
+          <div className="flex gap-2 items-center">
+            <Circle classes="w-5 h-5" />
+            <Rectangle classes="h-3 w-40" />
+          </div>
+          <div className="flex gap-2 items-center">
+            <Circle classes="w-5 h-5" />
+
+            <Rectangle classes="h-3 w-60" />
+          </div>
         </div>
       </div>
     </div>
