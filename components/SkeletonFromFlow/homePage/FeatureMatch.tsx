@@ -11,7 +11,7 @@ function FeatureMatch() {
         </div>
         <div className="flex flex-col justify-center  items-center gap-2">
           <Rectangle classes="h-5 w-[3.5rem]" />
-          <Rectangle classes="h-7 w-[7.5rem]" />
+          <Rectangle classes="h-7 w-[6.5rem]" />
           <Rectangle classes="h-3 w-[5.5rem]" />
         </div>
         <div className="flex flex-col items-center gap-4">
