@@ -12,6 +12,12 @@
     .dev8 {
       @apply border border-dashed border-red-300;
     }
+    .dev7 {
+      @apply border border-dashed border-blue-300;
+    }
+    .dev6 {
+      @apply border border-dashed border-yellow-300;
+    }
     .button {
       @apply py-2 px-3 rounded-sm text-[#222226] text-xs;
     }
@@ -29,5 +35,8 @@
     }
     .containerPage {
       @apply max-w-[1440px] mx-auto;
+    }
+    .layout{
+      @apply max-w-[86rem] mx-auto md:w-full;
     }
 }
