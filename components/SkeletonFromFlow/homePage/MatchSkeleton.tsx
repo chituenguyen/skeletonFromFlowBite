@@ -3,7 +3,7 @@ import Rectangle from "../Rectangle";
 
 function MatchSkeleton() {
   return (
-    <div className="px-2 xl:px-8  flex flex-col gap-4 py-6 border-b border-solid dark:border-black border-gray-300">
+    <div className="px-2 xl:!px-4  flex flex-col gap-4 py-6 border-b border-solid dark:border-black border-gray-300">
       <div className="flex  gap-3 items-center">
         <Circle classes="w-12 h-12" />
         <div className="flex flex-col gap-2">
@@ -11,7 +11,7 @@ function MatchSkeleton() {
           <Rectangle classes="h-3 w-20" />
         </div>
       </div>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center bg-[#1C1C1C] p-2 xl:p-4">
         <div className="flex gap-1 flex-col">
           <Rectangle classes="h-3 w-12" />
           <Rectangle classes="h-3 w-12" />
@@ -33,7 +33,7 @@ function MatchSkeleton() {
           </div>
         </div>
       </div>
-      <div className="flex gap-3 items-center">
+      <div className="flex gap-3 items-center bg-[#1C1C1C] p-2 xl:p-4">
         <div className="flex gap-1 flex-col">
           <Rectangle classes="h-3 w-12" />
           <Rectangle classes="h-3 w-12" />
