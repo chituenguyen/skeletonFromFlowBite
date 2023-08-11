@@ -12,7 +12,7 @@ function MatchSkeleton() {
         </div>
       </div>
       <div className="flex flex-col gap-1">
-        <div className="flex gap-3 items-center dark:bg-[#1C1C1C] bg-[#F2F6F9] p-2 xl:!p-4">
+        <div className="flex gap-3 items-center dark:bg-[#1C1C1C] bg-[#F2F6F9] p-2 xl:!p-4 rounded-lg">
           <div className="flex gap-1 flex-col">
             <Rectangle classes="h-3 w-12" />
             <Rectangle classes="h-3 w-12" />
@@ -34,7 +34,7 @@ function MatchSkeleton() {
             </div>
           </div>
         </div>
-        <div className="flex gap-3 items-center dark:bg-[#1C1C1C] bg-[#F2F6F9] p-2 xl:!p-4">
+        <div className="flex gap-3 items-center dark:bg-[#1C1C1C] bg-[#F2F6F9] p-2 xl:!p-4 rounded-lg">
           <div className="flex gap-1 flex-col">
             <Rectangle classes="h-3 w-12" />
             <Rectangle classes="h-3 w-12" />

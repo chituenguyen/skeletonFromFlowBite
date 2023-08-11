@@ -28,7 +28,7 @@ const Competition = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 ">
-            <div className=" dark:bg-[#222] bg-white">
+            <div className=" dark:bg-[#222] bg-white rounded-lg">
               {numbersArray2.map((number) => (
                 <Schedule key={number} />
               ))}

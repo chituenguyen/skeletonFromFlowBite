@@ -21,49 +21,49 @@ const Home: NextPage = () => {
   const tabContents = [
     <div className="flex flex-col gap-4" key={1}>
       <PredictFeatureMatch />
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2 rounded-lg">
         <Rectangle classes="w-full h-[5rem]" />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C]">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg">
         <ConfrontationH />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C]">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg">
         <Referee />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C]">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg">
         <Stadium />
       </div>
     </div>,
     <div key={2} className="flex flex-col gap-4">
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Rectangle classes="w-full h-[7rem]" />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Formation />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Formation />
       </div>
     </div>,
     <div key={3} className="flex flex-col gap-4">
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Rectangle classes="w-full h-[10rem]" />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Statistic />
       </div>
     </div>,
     <div key={4} className="flex flex-col gap-4">
       <PredictFeatureMatch />
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Streak />
       </div>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
         <Streak />
       </div>
     </div>,
     <div key={5}>
-      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] px-4 py-2">
+      <div className="bg-[#ECF1F5] dark:bg-[#1C1C1C] rounded-lg px-4 py-2">
       {numbersArray2.map((number) => (
         <Standing key={number} />
       ))}
