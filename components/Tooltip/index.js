@@ -6,7 +6,7 @@ import { useTheme } from "next-themes";
 
 const ColorModeContext = React.createContext({ toggleColorMode: () => {} });
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   customTooltip: {
     fontSize: 14,
     borderRadius: 4,
