@@ -104,3 +104,8 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+export function getServerSideProps() {
+  return {
+      props: { message: "Welcome to the About Page" },
+  };
+}

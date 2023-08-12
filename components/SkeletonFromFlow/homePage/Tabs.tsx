@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import ToggleColorMode from "../../Tooltip";
 
 interface TabProps {
   label: string;
@@ -9,9 +10,11 @@ interface TabProps {
 const Tab: React.FC<TabProps> = ({ label, isActive, onClick }) => (
   <button
     onClick={onClick}
-    className={`lg:text-[10px] text-sm dark:text-white px-4 py-2 rounded-lg ${isActive ? 'bg-[#2187E5] ' : ''}`}
+    className={`lg:text-[10px] text-sm dark:text-white px-4 py-2 rounded-lg ${
+      isActive ? "bg-[#2187E5] " : ""
+    }`}
   >
-    {label}
+    <ToggleColorMode title={label}>{label}</ToggleColorMode>
   </button>
 );
 
