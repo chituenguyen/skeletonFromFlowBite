@@ -21,7 +21,7 @@ function CustomTooltip({
   const classes = useStyles();
 
   return (
-    <Tooltip title={title} classes={{ tooltip: classes.customTooltip }}>
+    <Tooltip title={title} classes={{ tooltip: classes.customTooltip }} placement="bottom-end">
       {children}
     </Tooltip>
   );
@@ -53,6 +53,9 @@ export default function ToggleColorMode({
             fontSize: 14,
             borderRadius: 4,
             fontFamily: "UniscoreSans",
+            boxShadow: [
+              resolvedTheme === "dark" ? "none" : "0px 2px 3px rgba(0, 0, 0, 0.1)",
+            ],
           },
         },
       },
