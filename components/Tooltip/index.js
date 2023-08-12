@@ -17,9 +17,6 @@ const useStyles = makeStyles((theme) => ({
 function CustomTooltip({
   title,
   children,
-}: {
-  title: string;
-  children: React.ReactNode;
 }) {
   const classes = useStyles();
 
@@ -33,9 +30,6 @@ function CustomTooltip({
 export default function ToggleColorMode({
   title,
   children,
-}: {
-  title: string;
-  children: React.ReactNode;
 }) {
   const {resolvedTheme} = useTheme()
 
@@ -43,7 +37,7 @@ export default function ToggleColorMode({
     () =>
       createTheme({
         palette: {
-          resolvedTheme,
+          mode: resolvedTheme,
         },
       }),
     [resolvedTheme]
